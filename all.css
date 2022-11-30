@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-image: url(https://krot.info/uploads/posts/2022-02/1644841535_22-krot-info-p-neitralnii-svetlii-fon-24.jpg);
+    color: #000;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+.info {
+    display: flex;
+}
+/* ава */
+#avatar {
+    box-shadow:5px 5px 15px rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+}
+
+.info_text {
+    margin: 10px;
+    text-align: center;
+}
+
+.info p {
+    font-style: italic;
+    opacity: 0.6;
+    margin: 0px;
+}
+
+.button {
+    border: 3px solid black;
+    border-radius: 25px;
+    margin: 5px 5px;
+}
+/* Разная подстветка кнопок */
+#vk:hover {
+    box-shadow:5px 5px 5px rgba(8, 4, 230, 0.7)
+}
+#ytb:hover {
+    box-shadow:5px 5px 5px rgba(238, 17, 17, 0.7)
+}
+#tlg:hover {
+    box-shadow:5px 5px 5px rgba(0, 189, 247, 0.7)
+}
+
+
+
+/* Увлечения */
+
+.hobby {
+    background-image: url(https://phonoteka.org/uploads/posts/2022-01/1643275778_51-phonoteka-org-p-fon-dlya-fotoshopa-futbol-53.jpg);
+    border-radius: 20px;
+    padding: 15px 15px;
+    margin: 10px 20px 20px 0px;
+    color: #f2f2f2da;
+}
+
+
+/* Работа */
+.tablee {
+    background-image: url(http://urspg.ru/mt-content/uploads/2020/04/dsc_2355-2.jpg);
+    border-radius: 20px;
+    padding: 15px 15px 25px 15px;
+    margin: 20px 20px 20px 0px;
+    color: #fbff00cc;
+}
+
+.tablee td, th {
+    margin: 0;
+    border-bottom: 1px solid #fbff0070 ;
+    padding: 5px 5px;
+}
+
+
+
+/* cвязаться со мной */
+
+.obr {
+    background-image: url(https://fintolk.pro/wp-content/uploads/2019/09/cvb.png);
+    border-radius: 20px;
+    padding:2px 15px 15px 15px;
+    margin: 20px 20px 20px 0px;
+}
+.ziro {
+    display: flex;
+}
+.zero {
+    width: 50%;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.zero input, textarea {
+    width: 100%;
+    border: none;
+    background: transparent ;
+    border-bottom: 1px solid black;
+    color: #000;
+    padding: 10px 10px 10px 0;
+    outline: none;
+    font-family: inherit;
+}
+
+.btn {
+    background: orange;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: inherit;
+}
+.btn:hover {
+    color: blue;
+    opacity: .7;
+    cursor: pointer;
+    border: 2px solid blue;
+}
+

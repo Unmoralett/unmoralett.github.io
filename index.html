@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="resume, Frontend, Junior, works">
+    <meta name="description" content="Резюме Junion Frontend-разработчика Глушака Александра"> 
+    <title> Alexandr Hlushak Resume  </title>
+    <link rel="stylesheet" href="all.css">
+    <style> @media (max-width: 700px) {
+                .info {
+                    display: block;
+                } 
+                #avatar {
+                width: 250px;
+                height: 250px;
+                display: block;
+                }
+                .info_text {
+                    text-align: center;
+                    font-size: 0.8rem;
+                    display: block;
+                }   
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="info" >
+            <img id="avatar" src="https://sun9-north.userapi.com/sun9-80/s/v1/if1/QyLCwT8wQwPCkjp0JSXpgNQoI9LsOuOQh6vnEeKDnQUyytM38fiY9m8p8UKkV07gJb9vjRF6.jpg?size=1080x1080&quality=96&type=album" 
+            alt="Здесь доолжно быть мое фото, но что-то пошло не так ;(" width="350" height="350">
+            <div class="info_text">
+                <h1> Александр Глушак </h1>
+                <p>Я <strong>тот самый</strong> очередной человек, который хочет научиться в программирование и сарказм.</p>
+                <p>Перед вами представлена моя первая работа по <Strong>HTML&CSS</Strong> , прошу не судить строго, у меня все впереди (но это не точно).</p>
+                <br>
+                <h4> Список социальных сетей</h4>
+                <a  href="https://vk.com/unmoralett"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7257b244913357.582202408a049.jpg" width="60" height="42" class="button" id="vk"></a>
+                <a  href="№"><img src="https://i.pinimg.com/originals/93/52/79/93527949bd99ae0e2fe278497d7809ff.png" width="60" height="42" class="button" id="ytb"></a>
+                <a  href="№"><img src="https://wersm.com/wp-content/uploads/2019/03/wersm-telegram-plane.jpg" width="60" height="42" class="button" id="tlg"></a>
+                <br>
+            </div>
+        </div>
+
+        <div class="hobby">
+            <h3> Мои маленькие радости </h3>
+            <ul>
+                <li>Футбол (BAYER MUNICH in my heart)</li>
+                <li>Зал, пробежки и спортивные движухи</li>
+                <li>Путешествия и познание мира сего</li>
+                <li>В последнее время нравится кодить)</li>
+            </ul>
+        </div>
+
+        <div class="tablee">
+            <h3> Послужной список</h3>
+            <table width=600>
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ОПС РБ</td>
+                        <td>Контроллер КПП</td>
+                        <td>2018-2020</td>
+                    </tr>
+                    <tr>
+                        <td>Делком40</td>
+                        <td>Столяр</td>
+                        <td>2020-2022</td>
+                    </tr>
+                    <tr>
+                        <td>ВЕЗА-Г</td>
+                        <td>Слесарь МСР</td>
+                        <td>2022 - по н.в.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="obr">
+            <h4> Связаться со мной </h4>
+            <form>
+                <div class="ziro">
+                    <div class="zero">
+                        <label for="text">Ваше имя:</label>
+                        <br>
+                        <input type="text" id="text" placeholder="Введите имя">              
+                    </div>  
+
+                    <div class="zero">
+                        <label for="email">Ваш email:</label>
+                        <br>
+                        <input type="email" id="email" placeholder="Введите email">              
+                    </div> 
+                </div>
+                <div class="zero">
+                    <label for="message">Ваше сообщение:</label>
+                    <br>
+                    <textarea id="message" placeholder="Введите сообщение..." cols="5" rows="5"></textarea>            
+                </div> 
+                <button class="btn" id="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
